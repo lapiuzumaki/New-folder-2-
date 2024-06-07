@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Desktop SoftWare</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <style>
+        .Btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.11);
+    margin: auto;
+  }
+  
+  .svgIcon {
+    fill: rgb(214, 178, 255);
+  }
+  
+  .icon2 {
+    width: 18px;
+    height: 5px;
+    border-bottom: 2px solid rgb(182, 143, 255);
+    border-left: 2px solid rgb(182, 143, 255);
+    border-right: 2px solid rgb(182, 143, 255);
+  }
+  
+  .tooltip {
+    position: absolute;
+    right: -105px;
+    opacity: 0;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .2s;
+    pointer-events: none;
+    letter-spacing: 0.5px;
+  }
+  
+  .tooltip::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgb(12, 12, 12);
+    background-size: 1000%;
+    background-position: center;
+    transform: rotate(45deg);
+    left: -5%;
+    transition-duration: .3s;
+  }
+  
+  .Btn:hover .tooltip {
+    opacity: 1;
+    transition-duration: .3s;
+  }
+  
+  .Btn:hover {
+    background-color: rgb(150, 94, 255);
+    transition-duration: .3s;
+  }
+  
+  .Btn:hover .icon2 {
+    border-bottom: 2px solid rgb(235, 235, 235);
+    border-left: 2px solid rgb(235, 235, 235);
+    border-right: 2px solid rgb(235, 235, 235);
+  }
+  
+  .Btn:hover .svgIcon {
+    fill: rgb(255, 255, 255);
+    animation: slide-in-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-10px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  .card img{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 100px;
+  }
+  .card a {
+    text-decoration: none;
+  }
+  .card{
+    width: 250px;
+    padding: 8px;
+    box-shadow:0px 0px 8px 3px rgb(82, 233, 253);
+    margin: 5px;
+  }
+.box{
+    box-shadow:0px 0px 8px 3px rgb(0, 225, 255);
+}
+.card h2{
+    text-align: center;
+}
+    </style>
+</head>
+
+<body class="d-flex flex-column h-100 bg-light">
+    <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">SoftCrack</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resume.html">Desktop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Android</a></li>
+                        <li class="nav-item"><a class="nav-link" href="movie.html">Movie</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container px-5 my-5">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Desktop Software</span></h1>
+            </div>
+            <div class="box">
+
+                <div class="card">
+                    <a href="https://www.mediafire.com/file/bd0khusgxqybg2j/Apache_OpenOffice_4.1.15_Linux_x86-64_install-deb_en-US.tar.gz/file" target="_blank">
+                        <img src="https://a.fsdn.com/allura/mirror/openofficeorg/icon?1703330040?&w=90"
+                            alt="">
+                            <h2>Open office</h2>
+                            <button class="Btn">
+                                    <svg class="svgIcon" viewBox="0 0 384 512" height="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
+                                        </path>
+                                    </svg>
+                                    <span class="icon2"></span>
+                                    <span class="tooltip">Download</span>
+                                </button>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.mediafire.com/file/0lfyvskl88bc1ss/npp.8.6.7.Installer.x64.exe/file" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Notepad%2B%2B_Logo.svg/1200px-Notepad%2B%2B_Logo.svg.png"
+                            alt="">
+                            <h2>Notepad++</h2>
+                            <button class="Btn">
+                                    <svg class="svgIcon" viewBox="0 0 384 512" height="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
+                                        </path>
+                                    </svg>
+                                    <span class="icon2"></span>
+                                    <span class="tooltip">Download</span>
+                                </button>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.mediafire.com/file/aqnga8miu3awfuq/gimp-2.10.38-setup.exe/file" target="_blank">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxATEhATEhIQFhESEhURFRYWEhUSFRAVGBYXFhUZFhYZHiggGBolGxUVITEhJSkrLi8uGB8zODMtNygtOisBCgoKDg0OFxAQGCslHR0tLS0tLy8tNy0tKy0tLS0tLS0tLy0rLTctLS03Ky0vKy0tKzc3KzArKys3KzMtLSs3Lf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABQcDBgECBAj/xABJEAABAwIDBQYCBgcGAgsAAAABAAIDBBEFEiEGMUFRYQcTInGBkVKhFDJCcrHBI2KCksLh8UODotHi8GNzCBU0NVOTo6Sys8P/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAQIDBAX/xAAfEQEBAAICAgMBAAAAAAAAAAAAAQIRAyEEEjFBUSL/2gAMAwEAAhEDEQA/ALxREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQF5cRxGCBhknljjjBAzPcGC53C549F6lQfbFjZnrjC114qVvdgcO9Osh8x4W9MpQXtR1UcrGyRPY+N4u17HBzXDoRoVmVT9g1c4trYCfAx0UzRfcXh7X25D9Gz3KthAREQEREBERAREQEREBQu2eISU9FUzx27yJneNvuJDgQD0O4+amlq/ac62F1v3Gj3kYPzQTeDYlHUwQzx/UlYHjmL7weoNweoXtVN9i+1IY51DKbNkcZICdwedXx+tsw65uJCuRAREQEREBERAREQEREBEUdj+N09HC6ad+Vg0A3ukdwawfacf5mwBQR+3O0rKClfLoZXeCFnxyEaEj4W/WPQW3kL52p43PL5Hkuc4uJJ3vcblzj1uSfMqU2kx2fEqkyyeFjfDGy92wx33Dm47yeJ6AAdAwAWG4aKZX6J22zsKmtWVLPips37kjR/GrtVCdi77Ylb4qaVv8Aijd/Cr7VSCIiKIiICIiAiIgIiIC1LtWdbCqzyiHvNGFtq03tedbCqrq6Af8AuI0FEwUDzF3zC7Mx/AkOFrEOaRqCDr/RXb2bbeMrGNgncG1jG9AKloH1m/rW3t9RpurHZgfoL/ru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"
+                            alt="">
+                            <h2>Gimp</h2>
+                            <button class="Btn">
+                                    <svg class="svgIcon" viewBox="0 0 384 512" height="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
+                                        </path>
+                                    </svg>
+                                    <span class="icon2"></span>
+                                    <span class="tooltip">Download</span>
+                                </button>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.mediafire.com/file/zdebta076w4vd4v/CapCut_7267140873131950085_installer.exe/file" target="_blank">
+                        <img src="data:image/png;base64,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"
+                            alt="">
+                            <h2>Cap Cut</h2>
+                            <button class="Btn">
+                                    <svg class="svgIcon" viewBox="0 0 384 512" height="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
+                                        </path>
+                                    </svg>
+                                    <span class="icon2"></span>
+                                    <span class="tooltip">Download</span>
+                                </button>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.mediafire.com/file/srdk6g47p51wkfp/_Getintopc.com_Firefly.AI-03.rar/file" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9cJnl4JjcRJMuuzi5NMwA0C2a-wRF8GfpFwDSjziF4oE9-FA0CPeCYhR9inU3u3CV3K4&usqp=CAU"
+                            alt="">
+                            <h2>Firefly.AI</h2>
+                            <button class="Btn">
+                                    <svg class="svgIcon" viewBox="0 0 384 512" height="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
+                                        </path>
+                                    </svg>
+                                    <span class="icon2"></span>
+                                    <span class="tooltip">Download</span>
+                                </button>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.mediafire.com/file/zdebta076w4vd4v/CapCut_7267140873131950085_installer.exe/file" target="_blank">
+                        <img src="https://i.pinimg.com/736x/54/f5/63/54f5630329acf44961d709c218be4e58.jpg"
+                            alt="">
+                            <h2>Sql2022</h2>
+                            <button class="Btn">
+                                    <svg class="svgIcon" viewBox="0 0 384 512" height="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
+                                        </path>
+                                    </svg>
+                                    <span class="icon2"></span>
+                                    <span class="tooltip">Download</span>
+                                </button>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.mediafire.com/file/meeamf6qw05dc6o/xampp-windows-x64-8.2.12-0-VS16-installer.exe/file" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/XAMPP_logo.svg/1200px-XAMPP_logo.svg.png"
+                            alt="">
+                            <h2>XAMPP</h2>
+                            <button class="Btn">
+                                    <svg class="svgIcon" viewBox="0 0 384 512" height="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
+                                        </path>
+                                    </svg>
+                                    <span class="icon2"></span>
+                                    <span class="tooltip">Download</span>
+                                </button>
+                    </a>
+                </div>
+            </div>
+    </main>
+    <!-- Footer-->
+    <footer class="bg-white py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <div class="small m-0">Copyright &copy; Your Website 2023</div>
+                </div>
+                <div class="col-auto">
+                    <a class="small" href="#!">Privacy</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="#!">Terms</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="#!">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

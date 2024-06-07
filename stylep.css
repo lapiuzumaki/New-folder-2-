@@ -1,0 +1,145 @@
+
+.box{
+    background-color: rgb(255, 255, 255);
+  box-shadow:0px 0px 8px 0px rgb(255, 0, 0);
+  border-radius: 15px;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card{
+    border: 2px solid rgb(136, 124, 124);
+    /* background-color: rgb(194, 192, 226); */
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%); 
+    box-shadow:0px 0px 5px 2px rgb(0, 247, 255);
+    height: 5opx;
+    width: 450px;
+    border-radius: 130px;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.card ul {
+    list-style: none;
+}
+.card ul button {
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.card  img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 6px;
+    border: 2px solid #e21e80;
+    border-radius: 100%;
+    margin-left: 7px;
+    box-shadow: 0px 0px 10px 3px #e9318d;
+    
+}
+.card ul h2 {
+    float: left ;
+    margin: 15px;
+    color: aliceblue;
+    
+}
+.card :hover{
+  border-radius: 130px;
+  background: #8f0094;
+}
+
+.Btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.11);
+  }
+  
+  .svgIcon {
+    fill: rgb(214, 178, 255);
+  }
+  
+  .icon2 {
+    width: 18px;
+    height: 5px;
+    border-bottom: 2px solid rgb(182, 143, 255);
+    border-left: 2px solid rgb(182, 143, 255);
+    border-right: 2px solid rgb(182, 143, 255);
+  }
+  
+  .tooltip {
+    position: absolute;
+    right: -105px;
+    opacity: 0;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .2s;
+    pointer-events: none;
+    letter-spacing: 0.5px;
+  }
+  
+  .tooltip::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgb(12, 12, 12);
+    background-size: 1000%;
+    background-position: center;
+    transform: rotate(45deg);
+    left: -5%;
+    transition-duration: .3s;
+  }
+  
+  .Btn:hover .tooltip {
+    opacity: 1;
+    transition-duration: .3s;
+  }
+  
+  .Btn:hover {
+    background-color: rgb(150, 94, 255);
+    transition-duration: .3s;
+  }
+  
+  .Btn:hover .icon2 {
+    border-bottom: 2px solid rgb(235, 235, 235);
+    border-left: 2px solid rgb(235, 235, 235);
+    border-right: 2px solid rgb(235, 235, 235);
+  }
+  
+  .Btn:hover .svgIcon {
+    fill: rgb(255, 255, 255);
+    animation: slide-in-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-10px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  
